@@ -1,5 +1,21 @@
+@font-face {
+  font-family: "Regular"; /*Can be any text*/
+  src: local("UbuntuMono"),
+    url("./fonts/UbuntuMono-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Bold"; /*Can be any text*/
+  src: local("UbuntuMono"),
+    url("./fonts/UbuntuMono-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Bold-Italic"; /*Can be any text*/
+  src: local("UbuntuMono"),
+    url("./fonts/UbuntuMono-BoldItalic.ttf") format("truetype");
+}
 .App {
   text-align: center;
+  font-family: Regular;
 }
 
 .App-logo {
